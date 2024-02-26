@@ -1,0 +1,127 @@
+/* 页面的基本样式 */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  line-height: 1.6;
+  padding: 10px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.item-container{
+  display: flex;
+  justify-content: space-between;
+}
+.span-container{
+  padding: 5px 20px;
+  font-size: 16px;
+}
+
+/* 标题样式 */
+h1, h2 {
+  color: #333;
+}
+
+/* 列表样式 */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  
+  background: #f2f2f2;
+  border: 1px solid #ddd;
+  margin-left: 40px;
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 30%;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+li:hover {
+  background-color: #f9f9f9; /* 鼠标悬停时改变背景色 */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* 添加阴影提供立体感 */
+  transform: translateY(-2px); /* 轻微上移提供点击反馈 */
+}
+
+/* 当条目被选中时，可以通过JavaScript添加.active类来改变样式 */
+li.active {
+  border-color: #5cb85c; /* 激活状态的边框颜色 */
+  background-color: #e6ffe6; /* 激活状态的背景色 */
+}
+
+
+/* 按钮样式 */
+button {
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #4cae4c;
+}
+/* 删除按钮样式 */
+.delete-button {
+  padding: 3px 8px;
+  font-size: 16px;
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #bd2130;
+}
+
+/* 取消按钮样式 */
+.cancel-button {
+  background-color: #ffc107;
+  color: black;
+}
+
+.cancel-button:hover {
+  background-color: #e0a800;
+}
+
+/* 其他样式保持不变 */
+/* 输入框样式 */
+input[type="text"],
+input[type="date"] {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: calc(100% - 22px);
+}
+
+/* Flexbox布局 */
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 添加项目区域样式 */
+.add-item-area {
+  margin-bottom: 20px;
+}
