@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/WanWanClockIn/static/css/main.9ab29f52.css",
+    "main.js": "/WanWanClockIn/static/js/main.dfc0d74b.js",
+    "static/js/453.f8e462f7.chunk.js": "/WanWanClockIn/static/js/453.f8e462f7.chunk.js",
+    "index.html": "/WanWanClockIn/index.html",
+    "main.9ab29f52.css.map": "/WanWanClockIn/static/css/main.9ab29f52.css.map",
+    "main.dfc0d74b.js.map": "/WanWanClockIn/static/js/main.dfc0d74b.js.map",
+    "453.f8e462f7.chunk.js.map": "/WanWanClockIn/static/js/453.f8e462f7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ab29f52.css",
+    "static/js/main.dfc0d74b.js"
+  ]
+}
